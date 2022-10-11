@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.hfad.bottom_navigation.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_homeDataFragment"
+            app:destination="@id/homeDataFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeDataFragment"
+        android:name="com.hfad.bottom_navigation.home_data.HomeDataFragment"
+        android:label="Home Data"
+        tools:layout="@layout/fragment_home_data" />
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.hfad.bottom_navigation.explore.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment_to_exploreDataFragment"
+            app:destination="@id/exploreDataFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exploreDataFragment"
+        android:name="com.hfad.bottom_navigation.explore_data.ExploreDataFragment"
+        android:label="Explore Data"
+        tools:layout="@layout/fragment_explore_data" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.hfad.bottom_navigation.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.hfad.bottom_navigation.edit_profile.EditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile" />
+
+
+</navigation>

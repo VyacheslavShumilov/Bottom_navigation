@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bottom_navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home Data Fragment</string>
+    <string name="car_info">Lamborghini Aventador (код кузова — LP700-4) — суперкар, выпускавшийся компанией Lamborghini с 2011 по 2021 год. Первоначально компания планировала выпустить лишь 4 тысячи экземпляров этой модели, но её итоговый тираж превысил это число более чем вдвое — 10 тысяч машин, что сделало Авентадор самой успешной моделью в истории марки.</string>
+
+
+    <string-array name="car_names">
+        <item>Aventador J</item>
+        <item>Aventador LP750 SuperVeloce</item>
+        <item>Aventador LP740-4 S</item>
+        <item>Aventador SVJ</item>
+    </string-array>
+
+
+</resources>
